@@ -31,8 +31,6 @@ DIVIDE(
 ```
 Calculates the overall percentage of employees who have left the company, using CALCULATE to isolate "Yes" attrition rows against total headcount.
 
-*(More measures to be added: Avg Tenure of Leavers vs Stayers)*
-
 ## Visuals
 - **Attrition Rate by Overtime Status** — Clustered column chart comparing attrition rate for employees who work overtime vs. those who don't. Uses the `Attrition Rate` measure directly on the X-axis category, relying on filter context to recalculate per category automatically.
 - **Attrition Rate by Department** — Same pattern, sliced by `Department`.
